@@ -10,10 +10,10 @@ setUserList((prevUsersList)=>{
 })
   }
   return (
-    <div>
+    <React.Fragment>
       <AppUSer onAddUser={addUserHandler}/>
       <UserList users={usersList}/>
-    </div>
+    </React.Fragment>
   );
 }
 
